@@ -7,6 +7,5 @@
  - git add .
  - git commit -am 'giải thích code'
  - git push origin master
- - edit
  
 
