@@ -4,7 +4,7 @@ html {
 
     body {
         height: 100%;
-        background: #F1E0CD url("https://farm4.staticflickr.com/3895/14744582186_8d5b05578c_k.jpg") no-repeat;
+        background: #F1E0CD url("images/background.jpg") no-repeat;
         color: #404041;
         background-size: cover;
         font-family: "Source Sans Pro", sans-serif;
