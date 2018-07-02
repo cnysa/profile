@@ -50,6 +50,9 @@ i.fa {
     padding: 0 0.5em;
 }
 /*--/content --*/
+.topper{
+    padding-top: 1em;
+}
 .w3l-left{
     padding-left: 5%;  
 }
@@ -57,22 +60,29 @@ i.fa {
 .w3l-right{
     padding-left: 5%;
 }
-
+.conten{
+    padding-top: 2em;
+}
+.conten h3{
+    color: #0b9bee;
+}
 /* education */
 .w3l-about{
     padding-top: 20px;
 }
 .Education{
-    margin-top: 2em;
+    
 }
 .info-grids{
     margin-top: 2em;
 }
-h4.w3layouts-year{
+h4.edu-year{
     float:right;
+    color: #066093;
 }
-h4.w3ls-uni{
+h4.edu-sc{
     float:left;
+    color: #066093;
 }
 .info-align-year h4{
     font-size: 1em;
@@ -85,6 +95,9 @@ h4.w3ls-uni{
     line-height: 1.9em;
     color: #777;
     margin-top: 10px;
+}
+.education p{
+    color: #000000;
 }
 
 /* info */
@@ -103,7 +116,7 @@ h4.w3ls-type{
 
 /*-- /skills --*/
 .Expertise{
-    margin-top: 2em;
+    
 }
 .bar_group{
     position: relative;
@@ -121,7 +134,7 @@ h4.w3ls-type{
     background-color:crimson;
 }
 /* profile */
-.profile-text p{
+.profile p{
     color: #000000;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -134,13 +147,25 @@ h4.w3ls-type{
 .Experience{
     margin-top: 2em;
 }
+.kn-job {
+    color: #066093;
+    float: left;
+}
+.kn-year{
+    float: right;
+    color: blue;
+}
+.text-kinhnghiem p{
+    width: 80%;
+    color: #000000;
+}
 
 .w3l-left::after{
     content: "";
     background: #627474;
     display: inline-block;
     width: 5px;
-    height: 1000px;
+    height: 500px;
     position: absolute;
     right: -10px;
     top: 0px;
