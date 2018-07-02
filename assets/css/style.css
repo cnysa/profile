@@ -8,12 +8,23 @@ html {
         background-size: cover;
         font-family: "Source Sans Pro", sans-serif;
     }
-    h1,h2,h3,h4,h5,h6 {
+    h1,h2,h3,h4,h6 {
         font-family: "Josefin Sans", sans-serif;
     }
-
+    .tab-content h2{
+        color: rgb(163, 247, 54);
+    }
+    #info h2{
+        color: rgb(50, 59, 112);
+    }
+    h5{
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 2.5rem;
+        color: rgb(58, 96, 139);
+        font-weight: bold;
+    }
     p {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     #Profile {
@@ -53,7 +64,7 @@ html {
     }
 
     #navigation ul {
-        background: #DA609B;
+        background: rgb(58, 96, 139);
     }
 
     #navigation ul i {
@@ -61,7 +72,7 @@ html {
     }
 
     #navigation ul li.active i {
-        color: #DA609B;
+        color: rgb(118, 177, 245);
     }
 
     #navigation ul li.active:hover i {
@@ -73,7 +84,7 @@ html {
     }
 
     .tab-pane {
-        padding: 10% 10% 2%;
+        padding: 10% 10% 10%;
     }
 
     .nav-tabs.nav-justified>li>a {
@@ -83,11 +94,21 @@ html {
     }
 
     .nav-tabs.nav-justified>li>a:hover {
-        background: #D88BAC;
+        background: rgb(50, 59, 112);
     }
 
     .progress-bar {
-        background-color: #DA609B;
+        background-color: goldenrod;
+    }
+    #info h4{
+        color: firebrick;
+    }
+    .edu{
+        position: relative;
+    }
+    .year{
+        position: absolute;
+        right: 0;
     }
 
     label,
@@ -97,7 +118,7 @@ html {
 
     label {
         font-size: 1.75rem;
-        color: #DA609B;
+        color:rgb(49, 48, 48);
     }
 
     label small {
