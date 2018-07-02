@@ -7,6 +7,7 @@ html {
         color: #404041;
         background-size: cover;
         font-family: "Source Sans Pro", sans-serif;
+        background-attachment: fixed;
     }
     h1,h2,h3,h4,h6 {
         font-family: "Josefin Sans", sans-serif;
@@ -29,7 +30,7 @@ html {
 
     #Profile {
         margin: 6rem auto 0;
-        background: white;
+        background: rgb(245, 250, 237, 0.6);
         max-width: 80%;
     }
 
@@ -95,6 +96,10 @@ html {
 
     .nav-tabs.nav-justified>li>a:hover {
         background: rgb(50, 59, 112);
+    }
+
+    .progress{
+        background: rgba(255, 255, 234, 0.2);
     }
 
     .progress-bar {
