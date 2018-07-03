@@ -8,7 +8,7 @@ app.controller('myCtrl', function ($scope, $http) {
         console.log("quyendeptrai");
     }
     $scope.getLstSkills = function () {
-        $http.get("../data/vi.json").then(function (d) {
+        $http.get("http://cnysa.github.io/profile/assets/data/vi.json").then(function (d) {
             console.log(d);
     });
     }
