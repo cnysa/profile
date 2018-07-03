@@ -12,26 +12,41 @@
         },
         {
             "id":2,
-            "name":"Php Javascript",
-            "record":70
+            "name":"Bootstrap",
+            "record":60
         },
         {
             "id":3,
+            "name":"Javascript",
+            "record":60
+        },
+        {
+            "id":4,
+            "name":"angular",
+            "record":50 
+        },
+        {
+            "id":5,
+            "name":"Php",
+            "record":70
+        },
+        {
+            "id":6,
             "name":"C# Java",
             "record":50
         },
         {
-            "id":4,
+            "id":7,
             "name":"Git & Github",
             "record":50
         },
         {
-            "id":5,
+            "id":8,
             "name":"SqlServer",
             "record":80
         },
         {
-            "id":6,
+            "id":9,
             "name":"Englíh",
             "record":60
         }
