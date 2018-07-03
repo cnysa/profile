@@ -1,4 +1,4 @@
-let app =  angular.module('app', []);
+let app =  angular.module('myApp', []);
 app.controller('myCtrl', function ($scope, $http) {
     this.constructor = () => {
         $scope.test();
@@ -8,7 +8,7 @@ app.controller('myCtrl', function ($scope, $http) {
         console.log("quyendeptrai");
     }
     $scope.getLstSkills = function () {
-        $http.get("../assets/data/vi.json").then(function (d) {
+        $http.get("../data/vi.json").then(function (d) {
             console.log(d);
     });
     }
