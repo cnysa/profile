@@ -67,7 +67,7 @@
                 <div class="tab-content">
                     <div id="about" role="tabpanel" class="tab-pane fade">
                         <h2>{{thongtin.Aboutme}}</h2>
-                        <p>{{about}}</p>
+                        <div ng-repeat="(key, value) in about" ><p>{{value.Aboutme}}</p></div>
                     </div>
                     <div id="skills" role="tabpanel" class="tab-pane fade">
                         <h2>{{thongtin.Skill}}</h2>
