@@ -1,7 +1,7 @@
 let app =  angular.module('myApp', []);
 app.controller('myCtrl', function ($scope, $http) {
     this.constructor = () => {
-        $scope.lang = localStorage.getItem('lang') ? localStorage.getItem('lang') : 'vi';
+        $scope.lang = localStorage.getItem('lang') ? localStorage.getItem('lang') : 'Vi';
         $scope.getdata();
     }
 
