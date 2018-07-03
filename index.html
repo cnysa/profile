@@ -78,7 +78,7 @@
                         <div ng-repeat="(key, value) in skill" >
                             <h4>{{value.name}}</h4>
                             <div class="progress">
-                                <div role="progressbar" style="width: 70%" class="progress-bar">{{value.record}}%</div>
+                                <div role="progressbar" style="width: {{ value.record }}%;" class="progress-bar">{{value.record}}%</div>
                             </div>
                         </div>
                     </div>
