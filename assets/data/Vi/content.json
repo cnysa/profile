@@ -1,0 +1,74 @@
+{
+    "aboutme":[
+        {
+        "Aboutme":"Hoàn thành khóa học 3 năm ngành công nghệ phần mềm tại trường Cao Đẳng kỷ thuật Lý Tự Trọng tp.Hồ Chí Minh. được đào tạo căn bản các công nghệ và ngôn ngữ C# Java, HTML, CSS, PHP, SQL Server, My SQL... Trong quá trình làm thực tập sinh và tự học, tìm hiểu về javascript và framework angular. nếu có điều kiện phát triển sẻ tiếp tục tìm hiểu về ngôn ngữ php cho back-end"
+        }
+    ],
+    "skill":[
+        {
+            "id":1,
+            "name":"Html Css",
+            "record":80
+        },
+        {
+            "id":2,
+            "name":"Php Javascript",
+            "record":70
+        },
+        {
+            "id":3,
+            "name":"C# Java",
+            "record":50
+        },
+        {
+            "id":4,
+            "name":"Git & Github",
+            "record":50
+        },
+        {
+            "id":5,
+            "name":"SqlServer",
+            "record":80
+        },
+        {
+            "id":6,
+            "name":"Tiếng Anh",
+            "record":60
+        }
+    ],
+    "education":[
+        {
+            "id":1,
+            "name":"Cao Đẳng Lý Tự Trọng",
+            "year":"2015 - 2018",
+            "content":"Học và tốt nghiệp cao đẳng Lý Tự Trọng với chuyên ngành Công nghệ phần mềm. Được đào tạo căn bản các ngôn ngữ và công nghệ: Sql server, C#, Java, Html, css"
+        }
+    ],
+    "infomation":[
+        {
+            "id":1,
+            "name":"Họ tên",
+            "content":"Hồ Thái Quyền"
+        },
+        {
+            "id":2,
+            "name":"Ngày sinh",
+            "content":"15/08/97"
+        },
+        {
+            "id":3,
+            "name":"Số Điện Thoại",
+            "content":"01633129069"
+        },
+        {
+            "id":4,
+            "name":"Địa chỉ Email",
+            "content":"Quyenthaiho@gmail.com"
+        },
+        {
+            "id":5,
+            "name":"Địa chỉ",
+            "content":"45/43/44 Trần Thái Tông, quận Tân Bình"
+        }
+    ]
+}
