@@ -1,12 +1,8 @@
 let app =  angular.module('myApp', []);
 app.controller('myCtrl', function ($scope, $http) {
     this.constructor = () => {
-        $scope.test();
         $scope.getkeyword();
-        $scope.getcontent();
-    }
-    $scope.test = function () {
-        console.log("quyendeptrai");
+        $scope.Vietnamese();
     }
     $scope.getkeyword = function () {
         $http.get("https://cnysa.github.io/profile/assets/data/Vi/keyword.json").then(function (d) {
@@ -14,7 +10,16 @@ app.controller('myCtrl', function ($scope, $http) {
             console.log($scope.thongtin)
         });
     }
-    $scope.getcontent = function () {
+    $scope.english = function (){
+        $http.get("https://cnysa.github.io/profile/assets/data/eng/content.json").then(function (f) {
+            $scope.about = f.data.aboutme;
+            $scope.skill = f.data.skill;
+            $scope.info = f.data.infomation;
+            $scope.edu = f.data.education;
+            console.log($scope.edu)
+        });
+    }
+    $scope.Vietnamese = function () {
         $http.get("https://cnysa.github.io/profile/assets/data/Vi/content.json").then(function (f) {
             $scope.about = f.data.aboutme;
             $scope.skill = f.data.skill;

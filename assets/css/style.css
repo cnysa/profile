@@ -33,9 +33,32 @@ html {
         background: rgb(245, 250, 237, 0.6);
         max-width: 80%;
     }
-
+    .language{
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+    .eng,.vi{
+        display: inline;
+    }
+    .btneng,.btnvi{
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        margin: 2px 2px;
+    }
+    .btneng{
+        background-image: url('../img/english.jpg');
+        background-size: cover;
+    }
+    .btnvi{
+        background-image: url('../img/vietnamese.jpg');
+        background-size: cover;
+    }
     #user {
         padding: 2.5rem;
+        position: relative;
+       
     }
 
     #img {
@@ -43,7 +66,7 @@ html {
         height: 120px;
         background: #DA609B url("https://scontent.fsgn6-1.fna.fbcdn.net/v/t1.0-1/p160x160/33029261_953577291467035_8611171349852848128_n.jpg?_nc_cat=0&oh=82181f0e96b21b6c8f82a4cf71995eea&oe=5BE19447") top center no-repeat;
         display: block;
-        margin: 4rem auto 0;
+        margin: 2rem auto 0;
         border-radius: 50%;
     }
 
