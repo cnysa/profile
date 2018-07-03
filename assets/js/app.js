@@ -5,7 +5,7 @@ app.controller('myCtrl', function ($scope, $http) {
         $scope.getdata();
     }
 
-    $scope.changeLang = function (_lang){
+    $scope.change = function (_lang){
         localStorage.setItem('lang',_lang);
         $scope.lang = _lang;
         $scope.getdata();
