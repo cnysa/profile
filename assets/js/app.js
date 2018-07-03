@@ -9,13 +9,13 @@ app.controller('myCtrl', function ($scope, $http) {
         console.log("quyendeptrai");
     }
     $scope.getkeyword = function () {
-        $http.get("http://cnysa.github.io/profile/assets/data/Vi/keyword.json").then(function (d) {
+        $http.get("https://cnysa.github.io/profile/assets/data/Vi/keyword.json").then(function (d) {
             $scope.thongtin = d.data;
             console.log($scope.thongtin)
         });
     }
     $scope.getcontent = function () {
-        $http.get("http://cnysa.github.io/profile/assets/data/Vi/content.json").then(function (f) {
+        $http.get("https://cnysa.github.io/profile/assets/data/Vi/content.json").then(function (f) {
             $scope.about = f.data.aboutme;
             $scope.skill = f.data.skill;
             $scope.info = f.data.infomation;
