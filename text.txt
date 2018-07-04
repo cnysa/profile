@@ -1,3 +1,3 @@
 test pr_doan
 test lan 2
-test 3 master
+test 3 pr_doan
