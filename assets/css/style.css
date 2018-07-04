@@ -12,7 +12,10 @@ html {
      
     @media only screen and (min-width: 769px){
         .container{
-            
+            padding-right: 5%;
+            padding-left: 5%;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
 
