@@ -24,5 +24,9 @@ app.controller('myCtrl', function ($scope, $http) {
             console.log($scope.edu)
         });
     }
+
+    $scope.viewInfoAction = function(){
+        $("body").addClass('active');
+    }
     this.constructor();
 })

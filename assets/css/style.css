@@ -51,7 +51,14 @@ html {
         background: white;
         max-width: 100%;
         opacity: 0.7;
+        margin-top: calc(50vh - 194px);
+        transition: margin 700ms;
     }
+
+    body.active #Profile {
+        margin-top: 6rem;
+    }
+
     .language{
         position: absolute;
         right: 0;
@@ -65,6 +72,7 @@ html {
         height: 30px;
         background-color: #fff;
         margin: 2px 2px;
+        border: none;
     }
     .btneng{
         background-image: url('../img/english.jpg');
@@ -191,4 +199,27 @@ html {
         background: #DA609B;
         border-color: #DA609B;
         color: #F1E0CD;
+    }
+
+    @media only screen and (max-width: 768px){
+        #Profile{
+            margin: 0px !important;
+            height: 100vh;
+        }
+        #content{
+            background: white;
+            padding-bottom: 50px;
+        }
+        #navigation ul{
+            position: fixed;
+            bottom: 0px;
+            z-index: 1003;
+        }
+        #navigation ul li{
+            width: 25%;
+            float: left;
+        }
+        .year{
+            position: relative;
+        }
     }
