@@ -7,7 +7,7 @@
     "skill":[
         {
             "id":1,
-            "name":"Html Css",
+            "name":"Html & Css",
             "record":80
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "id":4,
-            "name":"angular",
+            "name":"Angular",
             "record":50 
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "id":9,
-            "name":"Englíh",
+            "name":"English",
             "record":60
         }
     ],

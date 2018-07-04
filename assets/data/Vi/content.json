@@ -1,13 +1,13 @@
 {
     "aboutme":[
         {
-        "Aboutme":"Hoàn thành khóa học 3 năm ngành công nghệ phần mềm tại trường Cao Đẳng kỷ thuật Lý Tự Trọng tp.Hồ Chí Minh. được đào tạo căn bản các công nghệ và ngôn ngữ C# Java, HTML, CSS, PHP, SQL Server, My SQL... Trong quá trình làm thực tập sinh và tự học, tìm hiểu về javascript và framework angular. nếu có điều kiện phát triển sẻ tiếp tục tìm hiểu về ngôn ngữ php cho back-end"
+        "Aboutme":"Hoàn thành khóa học 3 năm tại trường Cao Đẳng Lý Tự trọng, chuyên ngành công nghệ phần mềm, được đào tạo căn bản các công nghệ: C#, Java, Php, Sql Server, Html, Css. có làm một số dự án đơn giản.</br></t>Trong quá trình làm thực tập viên tại công ty HcosFace, được định hướng và cảm thấy hứng thú với công nghệ web, đặc biệt là ngôn ngữ Javascript. Hiện tại có thể sử dụng cơ bản ngôn ngữ Javascript và framework Angular. Biết sử dụng boostrap và github.</br></t>Khi kết thúc chương trình học, mong muốn tìm được một vị trí làm việc để có thể làm việc và quan trọng hơn tiếp tục học hỏi thêm kinh nghiệm và kiến thức để trở thành một Front-end Developer."
         }
     ],
     "skill":[
         {
             "id":1,
-            "name":"Html Css",
+            "name":"Html & Css",
             "record":80
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "id":4,
-            "name":"angular",
+            "name":"Angular",
             "record":50 
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "id":9,
-            "name":"Englíh",
+            "name":"English",
             "record":60
         }
     ],
@@ -56,7 +56,7 @@
             "id":1,
             "name":"Cao Đẳng Lý Tự Trọng",
             "year":"2015 - 2018",
-            "content":"Học và tốt nghiệp cao đẳng Lý Tự Trọng với chuyên ngành Công nghệ phần mềm. Được đào tạo căn bản các ngôn ngữ và công nghệ: Sql server, C#, Java, Html, css"
+            "content":"Học và tốt nghiệp cao đẳng Lý Tự Trọng với chuyên ngành Công nghệ phần mềm."
         }
     ],
     "infomation":[
