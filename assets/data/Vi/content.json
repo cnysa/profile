@@ -90,27 +90,32 @@
         {
             "id": 1,
             "name": "website bán hàng",
-            "tech": "PHP + MYSQL"
+            "tech": "PHP + MYSQL",
+            "content":"website bán hàng với đầy đủ chức năng cơ bản, nhưng chưa áp dụng công nghệ mới."
         },
         {
             "id": 2,
             "name": "Phần mềm bán hàng",
-            "tech": "java + SQL server"
+            "tech": "java + SQL server",
+            "content":"phần mềm hỗ trợ bán hàng cho các cửa hàng bán đồ ăn nhanh, sử dụng java swing với chức năng là bán hàng và quản lý hàng."
         },
         {
             "id": 3,
             "name": "phần mềm quản lý sinh viên",
-            "tech": "c# + access"
+            "tech": "c# + access",
+            "content":"phần mềm quản lý phân công sinh viên thực tập."
         },
         {
             "id":4,
             "name": "tủ sách webapp (only front end)",
-            "tech": "angular5 + bootstrap"
+            "tech": "angular5 + bootstrap",
+            "content":"sử dụng json server ảo để tạo ứng dụng cho phép người dùng tìm và đọc sách và tạo thư viện cho riêng mình."
         },
         {
             "id": 5,
             "name": "CV online <3",
-            "tech": "angularjs + bootstrap + github"
+            "tech": "angularjs + bootstrap + github",
+            "content":"ứng dụng bootstrap để tạo ra template đẹp mắt và thân thiện, sử dụng github để làm host."
         }
     ]
 }

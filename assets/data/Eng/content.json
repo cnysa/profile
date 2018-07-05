@@ -90,27 +90,32 @@
         {
             "id": 1,
             "name": "Sell website",
-            "tech": "PHP + MYSQL"
+            "tech": "PHP + MYSQL",
+            "content":"The sales website with full basic functions, but not applied new technology."
         },
         {
             "id": 2,
             "name": "Sell Software",
-            "tech": "java + SQL server"
+            "tech": "java + SQL server",
+            "content":"The software sales support for fast food stores, using java swing with functions as sales and inventory management."
         },
         {
             "id": 3,
             "name": "student management software",
-            "tech": "c# + access"
+            "tech": "c# + access",
+            "content":" The student assignment assignment management software."
         },
         {
             "id":4,
             "name": "bookshelf webapp (only front end)",
-            "tech": "angular5 + bootstrap"
+            "tech": "angular5 + bootstrap",
+            "content":"I use json virtual server to create applications that allow users to find and read books and create their own libraries."
         },
         {
             "id": 5,
             "name": "CV online <3",
-            "tech": "angularjs + bootstrap + github"
+            "tech": "angularjs + bootstrap + github",
+            "content":"I use bootstrap to create beautiful and friendly templates, using github to host."
         }
     ]
 }
