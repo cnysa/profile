@@ -1,7 +1,7 @@
 {
     "aboutme":[
         {
-        "Aboutme":"about me tiếng anh"
+        "Aboutme":"I graduated from the Ly Tu Trong college with softwere technology subject. i was taught: C #, Java, Php, Sql Server, Html, Css Basic qualifications. i have some small projects about c#, java, php. After 2 months at HcosFace company As a trainee. i learned something new. I am interested in Javascript. Now i can use javascript and angular framework at low level, use github, bootstrap. When i finish the education at my school. i wanna find a job to work and keep leanning about web them become a front-end developer"
         }
     ],
     "skill":[
@@ -17,33 +17,33 @@
         },
         {
             "id":3,
+            "name":"SqlServer",
+            "record":80
+        },
+        {
+            "id":4,
             "name":"Javascript",
             "record":60
         },
         {
-            "id":4,
+            "id":5,
             "name":"Angular",
             "record":50 
         },
         {
-            "id":5,
+            "id":6,
             "name":"Php",
             "record":70
         },
         {
-            "id":6,
+            "id":7,
             "name":"C# Java",
             "record":50
         },
         {
-            "id":7,
+            "id":8,
             "name":"Git & Github",
             "record":50
-        },
-        {
-            "id":8,
-            "name":"SqlServer",
-            "record":80
         },
         {
             "id":9,
@@ -56,7 +56,7 @@
             "id":1,
             "name":"Ly Tu Trong College",
             "year":"2015 - 2018",
-            "content":"nội dung trường tiếng anh"
+            "content":"I have learned and just graduated from Ly Tu Trong College"
         }
     ],
     "infomation":[
@@ -84,6 +84,33 @@
             "id":5,
             "name":"Address",
             "content":"45/43/44 Trần Thái Tông, quận Tân Bình"
+        }
+    ],
+    "experience":[
+        {
+            "id": 1,
+            "name": "Sell website",
+            "tech": "PHP + MYSQL"
+        },
+        {
+            "id": 2,
+            "name": "Sell Software",
+            "tech": "java + SQL server"
+        },
+        {
+            "id": 3,
+            "name": "student management software",
+            "tech": "c# + access"
+        },
+        {
+            "id":4,
+            "name": "bookshelf webapp (only front end)",
+            "tech": "angular5 + bootstrap"
+        },
+        {
+            "id": 5,
+            "name": "CV online <3",
+            "tech": "angularjs + bootstrap + github"
         }
     ]
 }

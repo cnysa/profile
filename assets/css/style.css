@@ -187,6 +187,7 @@ html {
         box-shadow: 0 0 0.5rem #D88BAC;
     }
 
+
     button[type="submit"] {
         margin-top: 2rem;
         background: #DA609B;
@@ -216,9 +217,10 @@ html {
             z-index: 1003;
         }
         #navigation ul li{
-            width: 25%;
+            width: 20%;
             float: left;
         }
+
         .year{
             position: relative;
         }

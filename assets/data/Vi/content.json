@@ -17,33 +17,33 @@
         },
         {
             "id":3,
+            "name":"SqlServer",
+            "record":80
+        },
+        {
+            "id":4,
             "name":"Javascript",
             "record":60
         },
         {
-            "id":4,
+            "id":5,
             "name":"Angular",
             "record":50 
         },
         {
-            "id":5,
+            "id":6,
             "name":"Php",
             "record":70
         },
         {
-            "id":6,
+            "id":7,
             "name":"C# Java",
             "record":50
         },
         {
-            "id":7,
+            "id":8,
             "name":"Git & Github",
             "record":50
-        },
-        {
-            "id":8,
-            "name":"SqlServer",
-            "record":80
         },
         {
             "id":9,
@@ -56,7 +56,7 @@
             "id":1,
             "name":"Cao Đẳng Lý Tự Trọng",
             "year":"2015 - 2018",
-            "content":"Học và tốt nghiệp cao đẳng Lý Tự Trọng với chuyên ngành Công nghệ phần mềm."
+            "content":"Học và tốt nghiệp cao đẳng Lý Tự Trọng với chuyên ngành Công nghệ phần mềm.(đang đợi nhận bằng)"
         }
     ],
     "infomation":[
@@ -84,6 +84,33 @@
             "id":5,
             "name":"Địa chỉ",
             "content":"45/43/44 Trần Thái Tông, quận Tân Bình"
+        }
+    ],
+    "experience":[
+        {
+            "id": 1,
+            "name": "website bán hàng",
+            "tech": "PHP + MYSQL"
+        },
+        {
+            "id": 2,
+            "name": "Phần mềm bán hàng",
+            "tech": "java + SQL server"
+        },
+        {
+            "id": 3,
+            "name": "phần mềm quản lý sinh viên",
+            "tech": "c# + access"
+        },
+        {
+            "id":4,
+            "name": "tủ sách webapp (only front end)",
+            "tech": "angular5 + bootstrap"
+        },
+        {
+            "id": 5,
+            "name": "CV online <3",
+            "tech": "angularjs + bootstrap + github"
         }
     ]
 }
