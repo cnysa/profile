@@ -21,7 +21,8 @@ app.controller('myCtrl', function ($scope, $http) {
             $scope.skill = f.data.skill;
             $scope.info = f.data.infomation;
             $scope.edu = f.data.education;
-            console.log($scope.edu)
+            $scope.exp = f.data.experience
+            console.log($scope.exp)
         });
     }
 

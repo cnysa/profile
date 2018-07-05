@@ -135,7 +135,7 @@ html {
     }
 
     .tab-pane {
-        padding: 10% 10% 10%;
+        padding: 5% 10% 5%;
     }
 
     .nav-tabs.nav-justified>li>a {
@@ -220,7 +220,6 @@ html {
             width: 20%;
             float: left;
         }
-
         .year{
             position: relative;
         }
