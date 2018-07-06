@@ -46,7 +46,12 @@
             "record":50
         },
         {
-            "id":9,
+            "id": 9,
+            "name":"Photoshop",
+            "record":70
+        },
+        {
+            "id":10,
             "name":"English",
             "record":60
         }
