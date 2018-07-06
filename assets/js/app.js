@@ -25,7 +25,6 @@ app.controller('myCtrl', function ($scope, $http) {
             console.log($scope.exp)
         });
     }
-
     $scope.viewInfoAction = function(){
         $("body").addClass('active');
     }
